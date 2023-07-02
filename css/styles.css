@@ -1,0 +1,236 @@
+    :root {
+        --accent-color: #4D5AE5;
+        --color: #2e2f42;
+        --add-color: #434455;
+        --light-color: #ffffff;
+        --ligft-ir-color: #F4F4FD;
+        --iris-color: #404BBF;
+    }
+
+    .body {
+        font-family: "Roboto", sans-serif;
+        color: #434455;
+        background-color: #ffffff;
+    }
+
+    .visually-hidden {
+        color: #ffffff;
+    }
+
+    .link {
+        text-decoration: none;
+    }
+
+    .list {
+        list-style-type: none;
+    }
+
+    .title {
+        color: var(--color);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+
+    }
+
+    .subtitle {
+        color: var(--color);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+
+    .text {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+    .button {
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+    }
+
+    /*----------------HEADER----------------*/
+    .logo {
+        font-size: 18px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+
+    .header-logo-link {
+        color: var(--accent-color);
+    }
+
+    .logo-accent {
+        color: var(--color);
+    }
+
+    .header-menu-link {
+        color: var(--color);
+    }
+
+    .header-menu-link:hover,
+    .header-menu-link:focus {
+        color: var(--iris-color);
+    }
+
+    .header-adress {
+        font-style: normal;
+    }
+
+    .header-contacts-link {
+        color: var(--add-color);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+    .header-contacts-link:hover,
+    .header-contacts-link:focus {
+        color: var(--iris-color);
+    }
+
+    /*!------------------------HERO------------------*/
+    .hero {
+        background-color: var(--color);
+    }
+
+    .hero-title {
+        color: var(--light-color);
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+    }
+
+    .hero-button {
+        color: var(--light-color);
+        background-color: var(--accent-color);
+    }
+
+    .hero-button:hover,
+    .hero-button:focus {
+        background-color: var(--iris-color);
+    }
+
+    /**-------------ADVANAGES---------------*/
+    .advantages {}
+
+    .advantages-list {}
+
+    .advantages-item {}
+
+    .advantages-subtitle {}
+
+    .advantages-item-text {
+        color: var(--add-color);
+    }
+
+    /*!-----------------------DOING------------------*/
+    .doing {}
+
+    .doing-title {}
+
+    .doing-list {}
+
+    .doing-item {}
+
+    .doing-img {}
+
+    /*----------------TEAM----------------*/
+    .team {
+        background-color: var(--ligft-ir-color);
+    }
+
+    .team-title {}
+
+    .team-list {}
+
+    .team-item {
+        background-color: var(--light-color);
+    }
+
+    .team-img {}
+
+    .team-subtitle {}
+
+    .team-subtile-text {
+        color: var(--add-color);
+    }
+
+    /*?----------------FOOTER---------------*/
+    .footer {
+        background-color: var(--color);
+    }
+
+    .logo-accent.light {
+        color: var(--ligft-ir-color);
+    }
+
+    .footter-logo-link {
+        color: var(--accent-color);
+    }
+
+    .footer-text {
+        color: var(--ligft-ir-color);
+    }
+
+    /*?-----------------PORTFOLIO----------------*/
+    .porfolio {}
+
+    .porfolio-list-nav {}
+
+    .portfolio-nav-item {}
+
+    .porfolio-button {}
+
+    .porfolio-button {
+        color: var(--accent-color);
+        background-color: var(--ligft-ir-color);
+    }
+
+    .porfolio-button:hover,
+    .porfolio-button:focus {
+        color: var(--light-color);
+        background-color: var(--iris-color);
+    }
+
+    .porfolio-button.light {}
+
+    .portfolio-list-card {}
+
+    .portfolio-card-item {}
+
+    .portfolio-card-title {
+        color: var(--color);
+        font-size: 20px;
+
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+
+    .portfolio-card-link {}
+
+    .portfolio-card-subtitle {
+        color: var(--add-color);
+    }
+
+    .portfolio-subile-link {}
