@@ -17,6 +17,17 @@
         color: #ffffff;
     }
 
+    .page-container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    main {
+        flex-grow: 1;
+    }
+
     .container {
         width: 100%;
         max-width: 1440px;
@@ -200,14 +211,14 @@
 
     .hero-button {
         display: flex;
-        width: auto 169px;
-        height: auto 56px;
+        width: 169px;
+        height: 56px;
         padding: 16px 32px;
         color: var(--light-color);
         background-color: var(--accent-color);
-
         border-radius: 4px;
         margin: 0 auto;
+        align-items: center;
 
     }
 
@@ -221,25 +232,29 @@
 
     .advantages-container {
         /* margin: 120px 156px;*/
+        display: flex;
+        max-width: 1440px;
         padding: 120px 156px;
+
     }
 
     .advantages-list {
         /* margin: 120px 156px;*/
         display: flex;
         gap: 24px;
+        width: calc(100%-24px*3)/4;
     }
 
     .advantages-item {}
 
     .advantages-subtitle {
-        height: auto 24px;
+        max-height: 24px;
     }
 
     .advantages-item-text {
         color: var(--add-color);
-        width: calc(100%-24px*3)/4;
-        height: auto 72px;
+
+        max-height: 72px;
     }
 
     /*!-----------------------DOING------------------*/
@@ -360,6 +375,9 @@
         display: flex;
         justify-content: center;
         margin-bottom: 72px;
+        gap: 24px;
+        padding: 12px 24px;
+        max-height: 48px;
 
 
 
@@ -389,7 +407,6 @@
         flex-wrap: wrap;
         gap: 24px;
 
-    }
     }
 
     .portfolio-card-item {
