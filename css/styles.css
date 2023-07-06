@@ -70,6 +70,10 @@
 
     }
 
+    .link {
+        text-decoration: none;
+    }
+
     .list {
         list-style-type: none;
     }
@@ -353,12 +357,21 @@
     .logo-accent.light {
         color: var(--ligft-ir-color);
         display: inline-block;
+
+        width: 71px;
+        height: 21px;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .footter-logo-link {
         color: var(--accent-color);
         display: inline-block;
         margin-bottom: 16px;
+
+        height: 21px;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .footer-text {
@@ -385,10 +398,13 @@
     }
 
     .portfolio-nav-item {
-        width: calc((100% - 48px) / 3);
+
+        /*  width: calc((100% - 48px) / 3);*/
     }
 
     .porfolio-button {
+
+
         color: var(--accent-color);
         background-color: var(--ligft-ir-color);
         padding: 12px 24px;
