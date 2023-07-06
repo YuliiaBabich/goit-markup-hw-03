@@ -14,7 +14,16 @@
     }
 
     .visually-hidden {
-        color: #ffffff;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
     }
 
     .page-container {
@@ -33,8 +42,8 @@
         max-width: 1440px;
         /*height: 100%;
         max-height: 72px;*/
-        padding-right: 15px;
-        padding-left: 15px;
+        padding-right: 156px;
+        padding-left: 156px;
         margin: 0 auto;
         outline: 2px solid red;
 
@@ -233,7 +242,7 @@
     .advantages-container {
         /* margin: 120px 156px;*/
         display: flex;
-        max-width: 1440px;
+        /* max-width: 1440px;*/
         padding: 120px 156px;
 
     }
@@ -242,10 +251,12 @@
         /* margin: 120px 156px;*/
         display: flex;
         gap: 24px;
-        width: calc(100%-24px*3)/4;
+
     }
 
-    .advantages-item {}
+    .advantages-item {
+        width: calc((100% - 24px * 3) / 4);
+    }
 
     .advantages-subtitle {
         max-height: 24px;
@@ -258,11 +269,10 @@
     }
 
     /*!-----------------------DOING------------------*/
-    .doing {
-        /*max-width: 1400px;*/
-    }
+    .doing {}
 
     .doing-container {
+        max-width: 1400px;
         padding: 120px 156px;
     }
 
@@ -278,7 +288,8 @@
     }
 
     .doing-item {
-        width: calc(100%-48)/3;
+
+        width: calc((100% - 48px *2) / 3);
         border: 1px solid orange;
     }
 
@@ -315,7 +326,7 @@
     .team-item {
         display: flex;
         flex-direction: column;
-        width: calc(100%-3*24px)*4;
+        width: calc((100% - 3 * 24px) / 4);
         background-color: var(--light-color);
     }
 
@@ -377,166 +388,12 @@
         margin-bottom: 72px;
         gap: 24px;
         padding: 12px 24px;
-        max-height,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        ,
-        : 48px;
-
-
+        max-height: 48px;
 
     }
 
     .portfolio-nav-item {
-        width: calc(100%-48)/3;
+        width: calc((100% - 48px * 2) / 3);
     }
 
     .porfolio-button {}
@@ -564,7 +421,7 @@
     .portfolio-card-item {
         display: flex;
         flex-direction: column;
-        width: calc(100%-3*24px)*4;
+        width: calc((100% - 24px * 3) / 4);
     }
 
     .portfolio-card-title {
