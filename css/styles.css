@@ -44,7 +44,7 @@
         /* padding-right: 156px;
         padding-left: 156px;*/
         margin: 0 auto;
-        outline: 2px solid red;
+        /* outline: 2px solid red;*/
     }
 
     /*!-------скидання стилів--------*/
@@ -375,6 +375,7 @@
     .footter-logo-link {
         color: var(--accent-color);
         display: inline-block;
+        margin-bottom: 16px;
     }
 
     .footer-text {
@@ -403,7 +404,7 @@
     }
 
     .portfolio-nav-item {
-        width: calc((100% - 48px * 2) / 3);
+        width: calc((100% - 48px) / 3);
     }
 
     .porfolio-button {
@@ -448,8 +449,8 @@
         color: var(--color);
         font-size: 20px;
         margin: 0 auto;
+        margin-bottom: 8px;
         padding-top: 32px;
-
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
