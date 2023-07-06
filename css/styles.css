@@ -142,6 +142,7 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-right: 76px;
+        display: inline-block;
     }
 
     .header-logo-link {
@@ -163,6 +164,10 @@
     .header-menu {
         display: flex;
         gap: 40px;
+
+    }
+
+    .header-menu-item {
         padding: 24px 0;
     }
 
@@ -330,7 +335,7 @@
         border-radius: 0px 0px 4px 4px;
     }
 
-    team-fio-container {
+    .team-fio-container {
         padding: 32px 16px;
         margin: 0 auto;
     }
@@ -340,7 +345,7 @@
     .team-subtitle {
         /*margin-top: 32px;*/
         padding-top: 32px;
-        margin: 0 auto;
+        margin-bottom: 8px;
         text-align: center;
     }
 
@@ -443,7 +448,7 @@
     .portfolio-card-item {
         display: flex;
         flex-direction: column;
-        width: calc((100% -48px) / 3);
+        width: calc((100% - 48px) / 3);
     }
 
     .portfolio-card-title {
