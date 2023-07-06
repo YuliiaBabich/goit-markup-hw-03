@@ -14,7 +14,16 @@
     }
 
     .visually-hidden {
-        color: ffffff;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
     }
 
     .page-container {
@@ -133,7 +142,6 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-right: 76px;
-        display: inline-block;
     }
 
     .header-logo-link {
@@ -155,7 +163,7 @@
     .header-menu {
         display: flex;
         gap: 40px;
-        padding: 24px 0;
+        /*   padding: 24px 0;*/
 
     }
 
@@ -165,6 +173,7 @@
 
     .header-menu-link {
         color: var(--color);
+
     }
 
     .header-menu-link:hover,
@@ -367,7 +376,6 @@
 
     .logo-accent.light {
         color: var(--ligft-ir-color);
-        display: inline-block;
     }
 
     .footter-logo-link {
