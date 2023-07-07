@@ -152,8 +152,6 @@
         flex-grow: 1;
         gap: 76px;
         align-items: center;
-
-
     }
 
     .header-menu {
@@ -161,12 +159,11 @@
         gap: 40px;
     }
 
-    .header-menu-item {
-        padding: 24px 0;
-
-    }
+    .header-menu-item {}
 
     .header-menu-link {
+        display: block;
+        padding: 24px 0;
 
         color: var(--color);
 
@@ -350,10 +347,10 @@
     }
 
     .footer-container {
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         justify-content: start;
-        padding: 100px 156px;
+        padding: 100px 156px;*/
     }
 
     .logo-accent.light {
