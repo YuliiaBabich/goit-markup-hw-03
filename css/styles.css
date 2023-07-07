@@ -136,6 +136,7 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-right: 76px;
+        display: inline-block;
     }
 
     .header-logo-link {
@@ -357,7 +358,6 @@
 
     .logo-accent.light {
         color: var(--ligft-ir-color);
-        display: inline-block;
 
         width: 71px;
         height: 21px;
@@ -367,9 +367,8 @@
 
     .footter-logo-link {
         color: var(--accent-color);
-        display: inline-block;
-        margin-bottom: 16px;
 
+        margin-bottom: 16px;
         height: 21px;
         flex-direction: column;
         justify-content: center;
