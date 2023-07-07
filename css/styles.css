@@ -366,7 +366,7 @@
 
     .footter-logo-link {
         color: var(--accent-color);
-
+        display: inline-block;
         margin-bottom: 16px;
         height: 21px;
         flex-direction: column;
